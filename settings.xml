@@ -26,20 +26,16 @@
      via a proxy server, Un-comment the proxy options and fill in your proxy server detail.
    -->
   <proxies>
-    <!-- proxy
-      Specification for one proxy, to be used in connecting to the network.
-
     <proxy>
-      <id>optional</id>
+      <id>proxy-seat</id>
       <active>true</active>
       <protocol>http</protocol>
-      <username>proxyuser</</username>
-      <password>proxypass</password>
-      <host>proxy.host.net</host>
-      <port>80</port>
-      <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+      <username>seatw2k\e3304</</username>
+      <password>sicilia45!</password>
+      <host>proxy.seat.it</host>
+      <port>8080</port>
+      <nonProxyHosts></nonProxyHosts>
     </proxy>
-    -->
   </proxies>
   
   <profiles>
