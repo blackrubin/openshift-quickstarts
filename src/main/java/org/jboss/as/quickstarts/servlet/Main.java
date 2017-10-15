@@ -19,16 +19,6 @@ package org.jboss.as.quickstarts.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.annotation.Resource;
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.MessageProducer;
-import javax.jms.Queue;
-import javax.jms.Session;
-import javax.jms.TextMessage;
-import javax.jms.Topic;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -48,7 +38,7 @@ import javax.servlet.http.HttpServletResponse;
  * @author Serge Pagop (spagop@redhat.com)
  * 
  */
-@WebServlet("/HelloWorldMDBServletClient")
+@WebServlet("/main")
 public class Main extends HttpServlet {
 
     private static final long serialVersionUID = -8314035702649252239L;
