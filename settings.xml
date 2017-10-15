@@ -28,7 +28,7 @@
   <proxies>
     <proxy>
       <id>proxy-seat</id>
-      <active>true</active>
+      <active>false</active>
       <protocol>http</protocol>
       <username>seatw2k\e3304</</username>
       <password>sicilia45!</password>
