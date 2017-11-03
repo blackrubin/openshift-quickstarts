@@ -1,4 +1,4 @@
-<%@ page language="java" pageEncoding="ISO-8859-1" errorPage="error.jsp" contentType="text/html"%>
+<%@ page language="java" pageEncoding="ISO-8859-1" errorPage="jsp-myadmin/error.jsp" contentType="text/html"%>
 <%@page import="java.util.*"%>
 <%
 //
@@ -66,7 +66,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </tr>
 </table>
 <center style="text-align: center;"><%=t%></center>
- <form action="Main.jsp" method="post" name="login" onSubmit="return validate(this)" target="_top"> 
+ <form action="jsp-myadmin/Main.jsp" method="post" name="login" onSubmit="return validate(this)" target="_top"> 
 <table align=center bgcolor="#f5f5f5" style="width: 316px; height: 100px">
             <tr>
                 <td style="width: 184px;">
@@ -87,7 +87,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   Host 
                 </td>
                 <td style="width: 5px">
-                <input type="text" name="host" value="localhost" style="width: 227px"></td>
+                <input type="text" name="host" value="mysql" style="width: 227px"></td>
                
             </tr>
             <tr>

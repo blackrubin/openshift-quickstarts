@@ -31,7 +31,7 @@
 <% } else { %>
 <body bgcolor="#f5f5f5">
 <script language="javascript">
-	parent.location.href = 'Index.jsp';
+	parent.location.href = 'jsp-myadmin/Index.jsp';
 </script>
 </body>
 <% } %>

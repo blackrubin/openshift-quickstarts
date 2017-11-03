@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.sql.*" errorPage="error.jsp" pageEncoding="ISO-8859-1" %>
+<%@ page language="java" import="java.sql.*" errorPage="jsp-myadmin/error.jsp" pageEncoding="ISO-8859-1" %>
      <%
 			String User = null;     
             String Pass = null;
@@ -14,6 +14,6 @@
                     Port = (String)session.getAttribute("port");
               	    con=DriverManager.getConnection("jdbc:mysql://"+Host +":" + Port,User,Pass);
     		} catch (Exception e){
-    			response.sendRedirect("Index.jsp");
+    			response.sendRedirect("jsp-myadmin/Index.jsp");
     		}
    %>
