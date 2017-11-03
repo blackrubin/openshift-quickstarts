@@ -26,20 +26,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * <p>
- * A simple servlet 3 as client that sends several messages to a queue or a topic.
- * </p>
- * 
- * <p>
- * The servlet is registered and mapped to /HelloWorldMDBServletClient using the {@linkplain WebServlet
- * @HttpServlet}.
- * </p>
- * 
- * @author Serge Pagop (spagop@redhat.com)
- * 
+
  */
-@WebServlet("/main")
-public class Main extends HttpServlet {
+@WebServlet("/test")
+public class Test extends HttpServlet {
 
     private static final long serialVersionUID = -8314035702649252239L;
 
@@ -49,7 +39,7 @@ public class Main extends HttpServlet {
         PrintWriter out = resp.getWriter();
         out.write("<h1><strong>Mi piacciono i treni</strong></h1>");
     }
-
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doGet(req, resp);
     }

@@ -13,11 +13,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.jboss.quickstarts.eap</groupId>
-	<artifactId>jboss-helloworld-mdb</artifactId>
-	<version>6.4.0.GA</version>
-	<name>JBoss EAP Quickstart: helloworld-mdb</name>
-	<description>JBoss EAP Quickstart: Helloworld Message-Driven Bean with Servlet 3.0 as client</description>
+	<groupId>org.rubinsoft.bot</groupId>
+	<artifactId>openshift-jboss-telegram-bot</artifactId>
+	<version>0.0.1</version>
+	<name>Telegram BotFactory by Firebone</name>
 
 	<licenses>
 		<license>
@@ -44,8 +43,8 @@
 		<version.war.plugin>2.1.1</version.war.plugin>
 
 		<!-- maven-compiler-plugin -->
-		<maven.compiler.target>1.6</maven.compiler.target>
-		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
 
@@ -132,7 +131,16 @@
 			<version>4.0.0</version>
 			<scope>provided</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>com.github.pengrad</groupId>
+			<artifactId>java-telegram-bot-api</artifactId>
+			<version>3.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.37</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.ejb</groupId>
 			<artifactId>ejb-api</artifactId>
@@ -145,4 +153,5 @@
 		</dependency>
 
 	</dependencies>
+	<description>Telegram BotFactory by Firebone</description>
 </project>
