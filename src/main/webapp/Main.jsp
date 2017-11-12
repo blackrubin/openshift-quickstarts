@@ -14,9 +14,9 @@
 			} // Only if user enters the credentials otherwise it is available in the session object.		
 		
 			Host = (String)session.getAttribute("host");
-			out.println("<title> "+ Host + " | JSPMyAdmin 1.1</title>");
+			out.println("<title> "+ Host + " | JSPMyAdmin 1.2</title>");
 		} catch (Exception e){
-			out.println("<title> JSPMyAdmin 1.1</title>");			
+			out.println("<title> JSPMyAdmin 1.2</title>");			
 		}		
 	%>   
 </head>
@@ -31,7 +31,7 @@
 <% } else { %>
 <body bgcolor="#f5f5f5">
 <script language="javascript">
-	parent.location.href = 'jsp-myadmin/Index.jsp';
+	parent.location.href = 'Index.jsp';
 </script>
 </body>
 <% } %>

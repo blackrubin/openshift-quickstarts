@@ -14,8 +14,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.rubinsoft.bot</groupId>
-	<artifactId>openshift-jboss-telegram-bot</artifactId>
-	<version>0.0.1</version>
+	<artifactId>openshift3-jboss-telegram-bot</artifactId>
+	<version>0.1.1</version>
 	<name>Telegram BotFactory by Firebone</name>
 
 	<licenses>
